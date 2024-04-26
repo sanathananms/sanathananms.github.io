@@ -1,0 +1,852 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Effectively Communicating your Research &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'nature_master_class';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Introduction to statistics" href="intro_to_statistics_stanford.html" />
+    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Effectively Communicating your Research</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="intro_to_statistics_stanford.html">Introduction to statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic_voting_machine.html">Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019</a></li>
+
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="statistics_visualizing_data.html">Understanding and Visualizing Data with Python</a></li>
+
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fnature_master_class.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/nature_master_class.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Effectively Communicating your Research</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Effectively Communicating your Research</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#designing-an-impactful-research-study">Designing  an impactful research study</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-academic-writing">Effective academic writing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#logical-manuscript-structure">Logical Manuscript Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contents-of-the-paper">Contents of the paper:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-resources">Useful Resources</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ethics">Ethics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#statistics">Statistics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#writing">Writing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#journals-and-publishing-platforms">Journals and publishing platforms</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-review">Peer review</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="effectively-communicating-your-research">
+<h1>Effectively Communicating your Research<a class="headerlink" href="#effectively-communicating-your-research" title="Link to this heading">#</a></h1>
+<section id="designing-an-impactful-research-study">
+<h2>Designing  an impactful research study<a class="headerlink" href="#designing-an-impactful-research-study" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Upload contensts in Data repositories of the failed research</p></li>
+<li><p>SMART</p>
+<ul>
+<li><p>Specific:</p></li>
+<li><p>Measure: Methodology</p></li>
+<li><p>Achievable: Resourse, Facilities</p></li>
+<li><p>Realistic: budget</p></li>
+<li><p>Timely:</p></li>
+</ul>
+</li>
+</ul>
+<p>To study of the Risk: Cohort&gt;Case control&gt; Cross-sectional study</p>
+<p>There are many journals and database avaible where standard protocols are discussed in detailed. (eg. Nature. PLOS, etc.)</p>
+</section>
+<section id="effective-academic-writing">
+<h2>Effective academic writing<a class="headerlink" href="#effective-academic-writing" title="Link to this heading">#</a></h2>
+<p>Important strategies:</p>
+<ul class="simple">
+<li><p>Be concisie</p>
+<ul>
+<li><p>Length of a sentence: 10-20 words per sentence.</p></li>
+<li><p>present one idea before going to the next</p></li>
+<li><p>avoid unnecessary words that dilute the idea</p>
+<ul>
+<li><p>~~it is well know that~~ most therapies for</p></li>
+<li><p>~~As a matter of fact~~, we found…</p></li>
+<li><p>~~A number of studies have shown that~~…</p></li>
+<li><p><strong>A few studies</strong>….</p></li>
+<li><p>~~it is worth mentioninting that~~…</p></li>
+<li><p>… ~~as described in the previous study.~~</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Be specific</p>
+<ul>
+<li><p>Avoild: this, that these, those, they, it</p></li>
+<li><p>Avoid using qualitative words for quantitative thingd: Some, most, about, few</p></li>
+<li><p>Avoid Subjective words: Surprisingly, interestingly, strikingly (use only once of twice in the entite paper to address the keypoint)</p></li>
+</ul>
+</li>
+<li><p>Be logical</p>
+<ul>
+<li><p>Use variety in signposting to guide your readers</p>
+<ul>
+<li><p>Contrast words</p></li>
+<li><p>Similar words</p></li>
+<li><p>Addition words</p></li>
+<li><p>Results words</p></li>
+</ul>
+</li>
+<li><p>Sentence should end with <strong>“stress position”</strong> and next sentence should be followed by <strong>“topic position”</strong></p></li>
+</ul>
+</li>
+</ul>
+<p>Another Important starategies:</p>
+<ul class="simple">
+<li><p>Active voice</p>
+<ul>
+<li><p>Sujects are verbs has to be together (dont seperate it as we do in passive voice)</p></li>
+<li><p>Avoid using the verbs at the end of the sentence.</p></li>
+<li><p>Some journal (Nature)clearly says article prefers active voice</p></li>
+<li><p>When should we use passive voice?</p>
+<ul>
+<li><p>to avoid repetation ( He blah bla…. “He”…….. “He”)</p></li>
+<li><p>Unclear subjects - to avoid subjects that we do not know</p></li>
+<li><p>Methods section: ~~We proposed~~….. <strong>This techniques….</strong></p></li>
+<li><p>Sentence structure</p></li>
+</ul>
+</li>
+<li><p>Generally in a papaer 75% will be active voice and 25% in passive voice</p></li>
+</ul>
+</li>
+<li><p>Strong words</p>
+<ul>
+<li><p>Avoid normalization:</p>
+<ul>
+<li><p><strong>Correlate</strong> ~~correlation~~,</p></li>
+<li><p><strong>improve</strong> ~~improvement~~</p></li>
+<li><p><strong>restore</strong> ~~restoration~~</p></li>
+<li><p><strong>investigate</strong> ~~investigation~~</p></li>
+</ul>
+</li>
+<li><p>Avoid using complex words:</p>
+<ul>
+<li><p>nature portfolio: clear and simply</p></li>
+<li><p>Use this website to commonly used words <a class="reference external" href="https://www.phrasebank.manchester.ac.uk">Academic Phrasebank</a>
+**Effective promts for LLMs</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol class="arabic simple">
+<li><p>Identigy who you are: Bio medical researcher</p></li>
+<li><p>Give LLM contest for your prompt: Scientific publishing
+Avoid putting Researching findings in ChatGPT/Gemini in the basic version</p>
+<ul class="simple">
+<li><p>if necessary use it in Enterprise verions</p></li>
+</ul>
+</li>
+<li><p>(to copy from the slides)</p></li>
+</ol>
+</section>
+<section id="logical-manuscript-structure">
+<h2>Logical Manuscript Structure<a class="headerlink" href="#logical-manuscript-structure" title="Link to this heading">#</a></h2>
+<p>Key points to consider</p>
+<ul class="simple">
+<li><p>Identify your audience</p>
+<ul>
+<li><p>GLobal vs regional</p></li>
+<li><p>Broad vs Specialized</p></li>
+<li><p>Academic vs non-academic</p></li>
+</ul>
+</li>
+<li><p>Identify your focus</p></li>
+<li><p>Structure your narrative</p>
+<ul>
+<li><p>people like stories</p>
+<ul>
+<li><p>flow</p></li>
+<li><p>importance</p></li>
+<li><p>attention</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Writing the flow</strong></p>
+<ol class="arabic simple">
+<li><p>Organize your ideas</p>
+<ol class="arabic simple">
+<li><p>i.e wrte an outline</p></li>
+</ol>
+</li>
+<li><p>Communicate your ideas</p></li>
+<li><p>Write section by section (reduce downtime and receive feedback more quickly)</p>
+<ol class="arabic simple">
+<li><p>Methods</p></li>
+<li><p>Results</p></li>
+<li><p>Introduction/Discussion</p></li>
+</ol>
+</li>
+</ol>
+<ul class="simple">
+<li><p>Use Collab: Google docs, Overleaf</p></li>
+<li><p>Set deadline</p></li>
+<li><p>Avoid using the “final” in the file name</p></li>
+<li><p>After the first draft, read a loud to</p>
+<ul>
+<li><p>remove unnecessary words,</p></li>
+<li><p>terminology</p></li>
+<li><p>spelling</p></li>
+<li><p>ears can catch what eye has missed</p></li>
+</ul>
+</li>
+</ul>
+<section id="contents-of-the-paper">
+<h3>Contents of the paper:<a class="headerlink" href="#contents-of-the-paper" title="Link to this heading">#</a></h3>
+<p><strong>Introduction</strong></p>
+<ul class="simple">
+<li><p>intoduce the topic</p></li>
+<li><p>why it is relevent?</p>
+<ul>
+<li><p>international vs regional</p>
+<ul>
+<li><p>(to copy from the slides)</p></li>
+</ul>
+</li>
+<li><p>Broad vs specialized</p></li>
+</ul>
+</li>
+<li><p>in introduction cite the most recent pappers (make sure than 2/3rd of the ref are from last 5 years)</p></li>
+<li><p>organize in this way:</p>
+<ul>
+<li><p>Claim about the topic</p></li>
+<li><p>Support for evidence: Introduce previous studies/referxe based on the above calim</p></li>
+<li><p>Further anlysis: Emplasis need for more studies</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>methodology</strong></p>
+<ul class="simple">
+<li><p>Who and what was used in the study?</p>
+<ul>
+<li><p>Power calculation</p></li>
+<li><p>Sampling methodology</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Results</strong></p>
+<ul class="simple">
+<li><p>Logically guide your readers</p>
+<ul>
+<li><p>always go for short paragrapht with 4-5 sentences</p></li>
+<li><p>make sure every figures are explained before going to the next</p></li>
+<li><p>Logical flow of the figure descriptions</p>
+<ul>
+<li><p>Intoduce the figure</p></li>
+<li><p>Discuss trends/pattenrs/relationship</p></li>
+<li><p>Summary/takeaway message</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>How the result sof the figures to written?</p>
+<ul>
+<li><p>Rationale</p></li>
+<li><p>introduce the trend and patterns</p></li>
+<li><p>Importance</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Discussions</strong></p>
+<ul class="simple">
+<li><p>re-introduce the study to keep the ready</p>
+<ul>
+<li><p>topics importance</p></li>
+<li><p>what you did</p></li>
+<li><p>key findings</p></li>
+<li><p>what is the value</p></li>
+</ul>
+</li>
+<li><p>Use hedging terms to avoid confusion in the reader: may, suggest</p></li>
+<li><p>Report negative results</p>
+<ul>
+<li><p>Prevent research waste</p></li>
+<li><p>while reporting negative results:</p>
+<ul>
+<li><p>report the negative results</p></li>
+<li><p>Interpretatation</p></li>
+<li><p>Generate new hypothesis
+<strong>Conclusion</strong></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Conclusion: Main Conclusion</p></li>
+<li><p>Key findings: 1-2 Most important findings</p></li>
+<li><p>Impications: immediate contribution to the fiel</p></li>
+<li><p>Thought leadership: what is the value to the field</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="useful-resources">
+<h1>Useful Resources<a class="headerlink" href="#useful-resources" title="Link to this heading">#</a></h1>
+<section id="ethics">
+<h2>Ethics<a class="headerlink" href="#ethics" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Nature - Challenges in Irreproducible Research (<a class="reference external" href="http://www.nature.com/news/reproducibility-1.17552">www.nature.com/news/reproducibility-1.17552</a>)</p></li>
+<li><p>Nature - Reporting Standards
+(<a class="reference external" href="https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards">https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards</a>)</p></li>
+<li><p>Committee on Publication Ethics (<a class="reference external" href="https://publicationethics.org">publicationethics.org</a>)</p></li>
+<li><p>ORCiD - Unique identifier for researchers (<a class="reference external" href="https://orcid.org">www.orcid.org</a>)</p></li>
+</ul>
+</section>
+<section id="statistics">
+<h2>Statistics<a class="headerlink" href="#statistics" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Nature - Statistics for Biologists (<a class="reference external" href="https://www.nature.com/collections/qghhqm">www.nature.com/collections/qghhqm</a>)</p></li>
+<li><p>BMJ - Statistics Notes (<a class="reference external" href="https://www.bmj.com/specialties/statistics-notes">www.bmj.com/specialties/statistics-notes</a>)</p></li>
+</ul>
+</section>
+<section id="writing">
+<h2>Writing<a class="headerlink" href="#writing" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Writing for a Nature journal (<a class="reference external" href="https://www.nature.com/nature-portfolio/for-authors/write">www.nature.com/authors/author_resources/how_write.html</a>)</p></li>
+<li><p>Scitable - Learn Science at Nature (<a class="reference external" href="https://www.nature.com/scitable/">www.nature.com/scitable</a>)</p></li>
+<li><p>Overleaf - Online collaborative writing platform (<a class="reference external" href="http://www.overleaf.com">www.overleaf.com</a>)</p></li>
+<li><p>Writefull - Al-based writing analysis of your paper (<a class="reference external" href="https://www.writefull.com/">https://www.writefull.com/</a>)</p></li>
+<li><p>Academic Phrasebank - Useful academic phrases (<a class="reference external" href="https://www.phrasebank.manchester.ac.uk/">https://www.phrasebank.manchester.ac.uk/</a>)</p></li>
+</ul>
+</section>
+<section id="journals-and-publishing-platforms">
+<h2>Journals and publishing platforms<a class="headerlink" href="#journals-and-publishing-platforms" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Journal Guide - Free online journal selection resource (<a class="reference external" href="https://www.journalguide.com">www.journalguide.com</a>)</p></li>
+<li><p>Think-Check-Submit - Determining journal credibility (<a class="reference external" href="https://thinkchecksubmit.org">www.thinkchecksubmit.org</a>)</p></li>
+<li><p>Research Square Preprint Server (<a class="reference external" href="https://www.researchsquare.com/">https://www.researchsquare.com/</a>)</p></li>
+<li><p>Registered Reports (<a class="reference external" href="https://cos.io/rr/">https://cos.io/rr/</a>)</p></li>
+<li><p>FigShare (<a class="reference external" href="http://www.figshare.com">www.figshare.com</a>)</p></li>
+</ul>
+</section>
+<section id="peer-review">
+<h2>Peer review<a class="headerlink" href="#peer-review" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Nature’s peer review policy (<a class="reference external" href="https://www.nature.com/nature-research/editorial-policies/peer-review">https://www.nature.com/nature-research/editorial-policies/peer-review</a>)</p></li>
+<li><p>How to write a thorough peer review (<a class="reference external" href="https://www.nature.com/articles/d41586-018-06991-0">https://www.nature.com/articles/d41586-018-06991-0</a>)</p></li>
+<li><p>Nature’s editorial criteria and processes (<a class="reference external" href="https://www.nature.com/nature/for-authors/editorial-criteria-and-processes">https://www.nature.com/nature/for-authors/editorial-criteria-and-processes</a>)</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="intro_to_statistics_stanford.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Introduction to statistics</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Effectively Communicating your Research</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#designing-an-impactful-research-study">Designing  an impactful research study</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-academic-writing">Effective academic writing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#logical-manuscript-structure">Logical Manuscript Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contents-of-the-paper">Contents of the paper:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-resources">Useful Resources</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ethics">Ethics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#statistics">Statistics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#writing">Writing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#journals-and-publishing-platforms">Journals and publishing platforms</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-review">Peer review</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
