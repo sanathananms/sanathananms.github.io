@@ -141,12 +141,20 @@ Key points to consider
 **Conclusion**
 - Conclusion: Main Conclusion
 - Key findings: 1-2 Most important findings
-- Impications: immediate contribution to the fiel
+- Impications: immediate contribution to the field
 - Thought leadership: what is the value to the field
   
-# Useful Resources
+*Finally promote your research!*
+- Conference
+- Social media
+  - Put the conclusion first
+  - then summary and key findings
+  - highlight the applications
+- Press releases/media
+
+## Useful Resources
 ### Ethics
-- Nature - Challenges in Irreproducible Research (www.nature.com/news/reproducibility-1.17552)
+- Nature - Challenges in Irreproducible Research ([www.nature.com/news/reproducibility-1.17552](https://www.nature.com/collections/prbfkwmwvz))
 - Nature - Reporting Standards
 (https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards)
 - Committee on Publication Ethics ([publicationethics.org](https://publicationethics.org))
@@ -159,7 +167,7 @@ Key points to consider
 ### Writing
 - Writing for a Nature journal ([www.nature.com/authors/author_resources/how_write.html](https://www.nature.com/nature-portfolio/for-authors/write))
 - Scitable - Learn Science at Nature ([www.nature.com/scitable](https://www.nature.com/scitable/))
-- Overleaf - Online collaborative writing platform (www.overleaf.com)
+- Overleaf - Online collaborative writing platform ([www.overleaf.com](https://www.overleaf.com))
 - Writefull - Al-based writing analysis of your paper (https://www.writefull.com/)
 - Academic Phrasebank - Useful academic phrases (https://www.phrasebank.manchester.ac.uk/)
 
@@ -168,7 +176,7 @@ Key points to consider
 - Think-Check-Submit - Determining journal credibility ([www.thinkchecksubmit.org](https://thinkchecksubmit.org))
 - Research Square Preprint Server (https://www.researchsquare.com/)
 - Registered Reports (https://cos.io/rr/)
-- FigShare (www.figshare.com)
+- FigShare ([www.figshare.com](https://figshare.com))
 
 ### Peer review
 - Nature's peer review policy (https://www.nature.com/nature-research/editorial-policies/peer-review)

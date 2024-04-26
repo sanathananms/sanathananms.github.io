@@ -1,6 +1,6 @@
 # The Indian Electronic Voting Machine
 
-### Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019
+**Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019**
 
 https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92
 
@@ -37,7 +37,7 @@ They are tough on election commision
 - Even RF check is performed in the vicinity of the EVMS
 - It is programmed inside BARC reviewd by TEC over a period of 1 years.
 
-### BU/CU has a challenge response system
+## BU/CU has a challenge response system
 
 - Authenticater can be used to see Programs can be manipulaed or not
 - Authenticator send a challenge number and a random address to the machine
@@ -68,7 +68,7 @@ They are tough on election commision
 - Every 2 hours the prciding officer tallies the number of entries in the register with number of votes registered in the EVMs
 - Not even 1 descrepency of 1 votes has be ever reported till now (4 crores)
 
-### Where can go wrong??
+## Where can go wrong??
 
 - When preciding officer forget to remove the slips from VVPAT
 - or when election commision forget to resent the CU before the polls started
