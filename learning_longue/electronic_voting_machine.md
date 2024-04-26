@@ -1,3 +1,5 @@
+# The Indian Electronic Voting Machine
+
 ### Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019
 
 https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92
@@ -80,7 +82,7 @@ They are tough on election commision
   - they checnges the display aswell
   - also connected the bluetooth
 
-### They can do all drama in outside, but no candidtae can show during the polls. Here are the reasons:
+**They can do all drama in outside, but no candidtae can show during the polls. Here are the reasons:**
 
 - Physical access to the machines are impossible
 - RF scan check will be perfored in the polling station such that no Bluetooth and WIfi are present near the vicinity
