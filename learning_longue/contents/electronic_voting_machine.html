@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>The Indian Electronic Voting Machine</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="the-indian-electronic-voting-machine">The Indian Electronic Voting Machine</h1>
+<p><strong>Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019</strong></p>
+<p><a href="https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92">https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92</a></p>
+<p>About the speaker: Dinesh Sharma is an Emeritus Fellow at the Dept. of Electrical Engineering, IIT Bombay, and a member of the Technical Experts Committee appointed by the Election Commission as an independent body to help in development and monitoring of electronic voting equipment and to advise it on technical matters. Among several other honours, he received a special felicitation by the president of India for his contributions as a member of the Technical Experts Committee of Election Commission in 2017.</p>
+<p>The Electronic Voting Machine was proposed in 1977 and Electronics Corporation of India (ECIL) was tasked with the development of the same. In 1979, a working model was evolved and was showcased to various political parties on 6 August 1980. Bharat Electronics (BEL) and ECIL were tasked with manufacturing EVMs.The EVMs were first trialed in 1982 in the by-election to Paravur assembly constituency in Kerala in a limited number of polling stations.</p>
+<p>Technical Expect committe is completely an honarary body
+They are tough on election commision</p>
+<ul>
+<li>Indian EVMs are different form all other EVMs in the world
+<ul>
+<li>All other EVMS are private companies</li>
+<li>the priviate companies do not follow the legislation</li>
+<li>Manufactued by BEL (Defense) and ECIL (BARC) inbult infra structure (stategic parts)</li>
+<li>These companies have strong source code audit process to ensure that rogue routines cannot be inserted inside the SW</li>
+<li>source coude is reviewed by 3rd party independent review</li>
+<li>TEC not only reviews the code but also suggest additional safety measures</li>
+</ul>
+</li>
+<li>This EMS can be used only for voting (very dedicated)</li>
+<li>Fixed embeded system- only designed for voting (other even are run on Micro controllers that can be programmed)</li>
+<li>BU does not connector (onlu wires comes out of BU)</li>
+<li>All countings are done in CU</li>
+<li>VSDU is just a display for VVPAT</li>
+<li>CU is controlled by the precising officer</li>
+<li>Program can be programmed only once</li>
+<li>M1 (outdates), M2 (2006), M3 (2015) EVM are used each has a life time of 15 years</li>
+<li>Machines replacement (due to rust) does not means EVM malfuction
+<ul>
+<li>VVPAT was not there when M2 was designed</li>
+</ul>
+</li>
+<li>EVM can talk to each other through encoded data sent over dedicated cables</li>
+<li>There are no external connection to EVN through wire or wireless</li>
+<li>Not even power supplly mains (zero connection to the outside world, i.e. completely)</li>
+<li>Micro controllers are one time programanble
+<ul>
+<li>so something happens to the machine, we need to dispose that machine (no replaceable or programmable component)</li>
+</ul>
+</li>
+<li>No bluetooth</li>
+<li>Even RF check is performed in the vicinity of the EVMS</li>
+<li>It is programmed inside BARC reviewd by TEC over a period of 1 years.</li>
+</ul>
+<h2 id="bucu-has-a-challenge-response-system">BU/CU has a challenge response system</h2>
+<ul>
+<li>Authenticater can be used to see Programs can be manipulaed or not</li>
+<li>Authenticator send a challenge number and a random address to the machine</li>
+<li>Machine take 16 bytes from this address and the cahllenge number and computed this function and returns that variable to the authenticator.</li>
+<li>Authenticaor computes the same fuction with the good program and cross verify these numbers generated</li>
+<li>This autheticator repeats this process many times and compare the values of the generated from EVM and with the Authenticator</li>
+<li>If progrma is tampered, the EVM has no clue what number will come and what function has to be generated</li>
+<li>In M2 even the unused flash memory has special pattern of numbers that an only authenticator can be able to recognize</li>
+<li>In M3, the autheticator can also ask the stack where even the subroutines are being called</li>
+</ul>
+<h3 id="during-the-polls">During the polls</h3>
+<ul>
+<li>In each minumte maximum of 12 votes can be casted (min time interval is 12 seconds)</li>
+<li>This is only EVM with design contributions from</li>
+<li>First level check was conducted before polls</li>
+<li>2 types randomization (district and whcih polling stations) - before nomination after nomination</li>
+<li>mock polls are conducted before polls are being conducted</li>
+<li>all EVM are sealed by most expensive paper from Nasik building press currecy press</li>
+<li>this papers is used for covering the EVM</li>
+<li>these papers are sealed by candidate signaure</li>
+<li>all condidate puts seal on the locks</li>
+<li>District majistrate + candidate</li>
+<li>Physical access to the EVM is close to</li>
+<li>In mock polls every buttons might be used</li>
+<li>At teh end of the polls, the officer press the poll closing button</li>
+<li>Votings can not be enabled after this untill the results has been seen and vote counts has been cleared</li>
+<li>The machine has a real time clock that records time of poll opening and poll closing</li>
+<li>Every 2 hours the prciding officer tallies the number of entries in the register with number of votes registered in the EVMs</li>
+<li>Not even 1 descrepency of 1 votes has be ever reported till now (4 crores)</li>
+</ul>
+<h2 id="where-can-go-wrong">Where can go wrong??</h2>
+<ul>
+<li>When preciding officer forget to remove the slips from VVPAT</li>
+<li>or when election commision forget to resent the CU before the polls started</li>
+<li>Machines are destroyed</li>
+<li>Even the fake videos spreading is from M1 that was stolen
+<ul>
+<li>All demo was done by Hari prasad</li>
+<li>Paper by hariprasad: <a href="https://ecirtam.net/autoblogs/autoblogs/hoperdnsaliasnettdc_484c2949b8623c0a91caf529c5a52f5cb9f27b59/media/ecc1cc8b.evm_tr2010-jul29.pdf">https://ecirtam.net/autoblogs/autoblogs/hoperdnsaliasnettdc_484c2949b8623c0a91caf529c5a52f5cb9f27b59/media/ecc1cc8b.evm_tr2010-jul29.pdf</a></li>
+<li>Election comminison throw him out from ECI tellig some legality (they should not have done it)</li>
+<li>what he dis was he stole some M1 machine</li>
+<li>they inserted new cards inside the EVM</li>
+<li>they checnges the display aswell</li>
+<li>also connected the bluetooth</li>
+</ul>
+</li>
+</ul>
+<p><strong>They can do all drama in outside, but no candidtae can show during the polls. Here are the reasons:</strong></p>
+<ul>
+<li>Physical access to the machines are impossible</li>
+<li>RF scan check will be perfored in the polling station such that no Bluetooth and WIfi are present near the vicinity</li>
+</ul>
+<p><strong>Why EVMs ate not used in Germany anf Holland??</strong></p>
+<ul>
+<li>All voting machine has the same physical key</li>
+<li>this can be ordered from the internet at any time by anyone (under 2 Euro)</li>
+<li>the programmed the program on socketed chips and reprogrammable (EEPROM)</li>
+<li>The machine was actually running on a computer under an OS</li>
+<li>The machine has a maintanence mode which is protected by a pssword and the password is &quot;GEHEIM&quot; means SECRET</li>
+<li>All machines has the same password</li>
+<li>Votes are not encripted</li>
+<li>This was the great machine that was discontinued</li>
+</ul>
+<p><strong>Why indian EVMs are so powerful</strong></p>
+<ul>
+<li>EVMS transfer through CU are encoded with encoding cable</li>
+<li>Each device has dfifference encoders</li>
+<li>Each Votes are encoded (Encoding Keys are different for every single votes)</li>
+</ul>
+<p>Madras High Court: 2001
+Karnataka Court: 2004</p>
+<p><strong>Disadvantage of Ballot votes</strong>
+the story of not putting ballot on box</p>
+<h3 id="why-vvpat">Why VVPAT?</h3>
+<ul>
+<li>VVPAT is a bad decisio</li>
+<li>You are using a less reliable mmaching to a high reliable machines</li>
+<li>VVPAt is a electro mechanical system
+<ul>
+<li>pages, printing error</li>
+<li>what if the printor has error?</li>
+</ul>
+</li>
+</ul>
+<h2 id="m2">M2</h2>
+<pre><code>CU&lt;-&gt;VVPAT&lt;-&gt;BU
+</code></pre>
+<ul>
+<li>VVPAT printes with metal deposited on special paper</li>
+<li>No of VVPAT replacement is much larget than number of Ballot unit</li>
+<li>Sensor for contrast (green led)</li>
+<li>Sensor for slipping for (red laser)</li>
+<li>Sensore will sense before the paper get depleted</li>
+<li>Rural places, these VVPAT may not functional if there are direct sunlight</li>
+</ul>
+<h2 id="m3">M3</h2>
+<ul>
+<li>
+<p>less depedency of human first level check</p>
+</li>
+<li>
+<p>so first level check is done by the machine itselt</p>
+</li>
+<li>
+<p>It has PKI certificate exchange and challenge response</p>
+<ul>
+<li>ability to dump the code to check that code cannnot be changed</li>
+<li>has the ssame challenge response</li>
+<li>2 keys
+<ul>
+<li>Public key - known to everyone</li>
+<li>Private key - nobody knows</li>
+<li>financial transaction has 256 bit encription</li>
+<li>EVM used 2kb encription (8 times higher)</li>
+<li>so thae chance of decripting that key will take billion years</li>
+<li>encode a message of private key with 2kb encription and give to any hacker</li>
+<li>the public key can identifies that it has been originated from only you (this is like digital signature)</li>
+<li>Each machine has private and public key which are manufactured by the manufacturer.</li>
+<li>So dishonest machine or look alike machine does not have private machines</li>
+<li>ME has a tough hardware, if you break that machine, a key will be activated, so that Pricate key will be destroyed</li>
+<li>So no physical access to the indoor of the M3 machine</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>BEL and ECIL machine compatability</p>
+</li>
+<li>
+<p>Tested in Leh, Chirapunji, Trivandrum, Delhi, Jessel (becase laser intesity is a function of temperature)</p>
+</li>
+</ul>
+<p>Space diversity and Time diversity
+Batteries can not be replaced</p>
+<p>This works was recognised by President</p>
+
+            
+            
+        </body>
+        </html>
