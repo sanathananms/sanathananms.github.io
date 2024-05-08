@@ -2,6 +2,7 @@
 This course from Stanfor University supported by Coursera
 
 **Bias and Chance error**
+
 $$
 estimate  = parameter + bias + chance\ error
 $$
