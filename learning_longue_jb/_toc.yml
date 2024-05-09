@@ -3,11 +3,15 @@
 
 format: jb-book
 root: intro
-chapters:
-# - file: markdown
-# - file: notebooks
-# - file: markdown-notebooks
-- file: nature_master_class
-- file: intro_to_statistics_stanford
-- file: electronic_voting_machine
-- file: statistics_visualizing_data
+parts:
+  - caption: Statistics with Python
+    chapters:
+      - file: statistics_visualizing_data
+      - file: intro_to_statistics_stanford
+  - caption: How to Communicate Research?  
+    chapters:
+      - file: nature_master_class
+  - caption: Social Media Presentations
+    chapters:      
+      - file: electronic_voting_machine
+      
