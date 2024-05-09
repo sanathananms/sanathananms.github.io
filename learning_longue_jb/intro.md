@@ -1,11 +1,8 @@
-# Welcome to your Jupyter Book
+# Welcome to Learning Longue
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This is a brief sample book designed to provide you with an overview of the topics, projects, and leisure activities that I am engaged in. The content primarily consists of notes I've taken while learning from courses, attending conferences/workshops, preparing lectures, and gathering random information. It does not delve deeply into any specific topic, and the contents are not extensively organized. 
 
-Check out the content pages bundled with this sample book to see more.
+For more details, please refer to the content pages included with this sample book.
 
 ```{tableofcontents}
 ```
