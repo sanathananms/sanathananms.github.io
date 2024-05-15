@@ -362,7 +362,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -378,6 +380,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#correlation">Correlation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#residual-plots-heteroscedasticity-and-transformations">Residual Plots, Heteroscedasticity, and Transformations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outliers">Outliers</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -399,7 +411,37 @@ estimate  = parameter + bias + chance\ error
 <li><p>estimate has to be somewhere colse to the parameter</p></li>
 <li><p>there will be a bias if the sampling is not done well</p></li>
 <li><p>chance error is unavoidable and it get smaller as the sample becomes larger</p></li>
+<li><p>sample average is actually random, because sampling is a random process. That means that <span class="math notranslate nohighlight">\(\bar{x}\)</span> won’t be exactly equal to the population mean <span class="math notranslate nohighlight">\(\mu\)</span></p></li>
+<li><p>Standard error (SE) it tells you roughly how far off the statistic will be from an expected value</p></li>
 </ul>
+<div class="math notranslate nohighlight">
+\[
+Standard error, SE = \frac{\sigma}{\sqrt{n}}
+\]</div>
+<ul class="simple">
+<li><p>it is important to note that SE does not depends on the size of the population, rather it depens only on the size of the sample. So a good number of sample is good enough to minimize the SE. in other words in statistics we do not need to deal with the size of the population, we need to deal only with the size of the sample selected. So, this simple formula that can help us determine what sample size we need for a desired accuracy.</p></li>
+<li><p><strong>The central limit theorem</strong> refers to large samples drawn with replacement,
+and it says that the result will approximately follow the normal curve.</p></li>
+</ul>
+<section id="correlation">
+<h2>Correlation<a class="headerlink" href="#correlation" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>correlation coefficient, <span class="math notranslate nohighlight">\(r\)</span> can be <span class="math notranslate nohighlight">\(+1\)</span> or <span class="math notranslate nohighlight">\(&gt;0\)</span> for positive correlation and can be <span class="math notranslate nohighlight">\(-1\)</span> or <span class="math notranslate nohighlight">\(&lt;0\)</span> for negative correlation.</p></li>
+<li><p>Also keep in mind that <span class="math notranslate nohighlight">\(r\)</span> is useful inly in measuring <em>linear association</em> i.e only for linear scatters</p></li>
+</ul>
+</section>
+<section id="residual-plots-heteroscedasticity-and-transformations">
+<h2>Residual Plots, Heteroscedasticity, and Transformations<a class="headerlink" href="#residual-plots-heteroscedasticity-and-transformations" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Residual are useful for checking whether the regression is appropriate.</p></li>
+</ul>
+</section>
+<section id="outliers">
+<h2>Outliers<a class="headerlink" href="#outliers" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Influential points</strong>: Whether or not a point is influential can only be told by refitting the regression line without using that point. For such an analysis, the residual plot turns out to be not very helpful.</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -457,7 +499,22 @@ estimate  = parameter + bias + chance\ error
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#correlation">Correlation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#residual-plots-heteroscedasticity-and-transformations">Residual Plots, Heteroscedasticity, and Transformations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outliers">Outliers</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
