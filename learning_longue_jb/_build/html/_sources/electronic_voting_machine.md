@@ -49,7 +49,7 @@ The Technical Expert Committee (TEC) is completely an honorary body. They are st
 
 ### During the polls
 
-- In each minute, a maximum of 12 votes can be cast (minimum time interval is 12 seconds).
+- In each minute, a maximum of 5 votes can be cast (minimum time interval is 12 seconds).
 - This is the only EVM with design contributions from...
 - First-level checks were conducted before the polls.
 - Two types of randomization (district and which polling stations) - before nomination and after nomination.
@@ -96,6 +96,7 @@ The Technical Expert Committee (TEC) is completely an honorary body. They are st
 - All machines have the same password.
 - Votes are not encrypted.
 - This was the main reason the machine was discontinued.
+- Ref: [https://www.usenix.org/legacy/event/evt07/tech/full_papers/gonggrijp/gonggrijp.pdf] (https://www.usenix.org/legacy/event/evt07/tech/full_papers/gonggrijp/gonggrijp.pdf)
 
 **Why Indian EVMs are so powerful**
 
@@ -155,3 +156,13 @@ Space diversity and Time diversity.
 Batteries cannot be replaced.  
 
 This work was recognized by the President.
+
+## References:
+1. [https://pib.gov.in/PressReleasePage.aspx?PRID=1487286] (https://karimganj.assam.gov.in/sites/default/files/public_utility/EVM_VVPAT_Manual_03012017.pdf)
+2. [https://karimganj.assam.gov.in/sites/default/files/public_utility/EVM_VVPAT_Manual_03012017.pdf](https://karimganj.assam.gov.in/sites/default/files/public_utility/EVM_VVPAT_Manual_03012017.pdf)
+3. [https://www.ceopunjab.gov.in/DownLoadDocument?t=14&l=En&q=go](https://www.ceopunjab.gov.in/DownLoadDocument?t=14&l=En&q=go)
+4. [https://patents.google.com/patent/WO2002084607A1/en] (https://patents.google.com/patent/WO2002084607A1/en)
+5. [https://allindianpatents.com/patents/199087-electronic-voting-machine] (https://allindianpatents.com/patents/199087-electronic-voting-machine)
+6. [https://countercurrents.org/2024/04/how-can-the-eci-have-a-technical-expert-committee-tec-to-authenticate-bels-evms-when-all-four-of-its-members-are-co-owners-with-bel-of-its-patent-taken-for-evm-vvpats/] (https://countercurrents.org/2024/04/how-can-the-eci-have-a-technical-expert-committee-tec-to-authenticate-bels-evms-when-all-four-of-its-members-are-co-owners-with-bel-of-its-patent-taken-for-evm-vvpats/)
+7. [https://www.usenix.org/legacy/event/evt07/tech/full_papers/gonggrijp/gonggrijp.pdf] (https://www.usenix.org/legacy/event/evt07/tech/full_papers/gonggrijp/gonggrijp.pdf)
+8. [https://ecirtam.net/autoblogs/autoblogs/hoperdnsaliasnettdc_484c2949b8623c0a91caf529c5a52f5cb9f27b59/media/ecc1cc8b.evm_tr2010-jul29.pdf](https://ecirtam.net/autoblogs/autoblogs/hoperdnsaliasnettdc_484c2949b8623c0a91caf529c5a52f5cb9f27b59/media/ecc1cc8b.evm_tr2010-jul29.pdf)
