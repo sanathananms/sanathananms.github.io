@@ -1,8 +1,8 @@
 # The Indian Electronic Voting Machine
 
-**Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019**
+<!-- **Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019**
 
-<!-- https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92
+https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92
 
 About the speaker: Dinesh Sharma is an Emeritus Fellow at the Dept. of Electrical Engineering, IIT Bombay, and a member of the Technical Experts Committee appointed by the Election Commission as an independent body to help in development and monitoring of electronic voting equipment and to advise it on technical matters. Among several other honours, he received a special felicitation by the president of India for his contributions as a member of the Technical Experts Committee of Election Commission in 2017. -->
 
