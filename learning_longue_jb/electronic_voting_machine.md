@@ -2,9 +2,9 @@
 
 **Chai and Why? The Indian Electronic Voting Machine - Dinesh Sharma 21/4/2019**
 
-https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92
+<!-- https://youtu.be/E0ORLvgM8ro?si=IosPPusFvnAtWc92
 
-About the speaker: Dinesh Sharma is an Emeritus Fellow at the Dept. of Electrical Engineering, IIT Bombay, and a member of the Technical Experts Committee appointed by the Election Commission as an independent body to help in development and monitoring of electronic voting equipment and to advise it on technical matters. Among several other honours, he received a special felicitation by the president of India for his contributions as a member of the Technical Experts Committee of Election Commission in 2017.
+About the speaker: Dinesh Sharma is an Emeritus Fellow at the Dept. of Electrical Engineering, IIT Bombay, and a member of the Technical Experts Committee appointed by the Election Commission as an independent body to help in development and monitoring of electronic voting equipment and to advise it on technical matters. Among several other honours, he received a special felicitation by the president of India for his contributions as a member of the Technical Experts Committee of Election Commission in 2017. -->
 
 The Electronic Voting Machine was proposed in 1977 and Electronics Corporation of India (ECIL) was tasked with the development of the same. In 1979, a working model was evolved and was showcased to various political parties on 6 August 1980. Bharat Electronics (BEL) and ECIL were tasked with manufacturing EVMs.The EVMs were first trialed in 1982 in the by-election to Paravur assembly constituency in Kerala in a limited number of polling stations.
 
